@@ -7,6 +7,7 @@ TagManager:
   - CinemachineTarget
   - DonutPickUp
   - OpenableDoor
+  - KeyPickUp
   layers:
   - Default
   - TransparentFX
