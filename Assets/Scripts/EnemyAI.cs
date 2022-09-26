@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -7,6 +8,7 @@ public class EnemyAI : MonoBehaviour
 {
     public Transform target;
     public float chaseRange = 5f;
+    public TextMeshProUGUI loseText;
 
     NavMeshAgent navMeshAgent;
     float distanceToTarget = Mathf.Infinity;
@@ -30,7 +32,7 @@ public class EnemyAI : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Destroy(target);
+            loseText.text = "Game over";
         }
     }
 
