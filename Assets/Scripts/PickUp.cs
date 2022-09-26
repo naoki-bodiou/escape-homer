@@ -11,6 +11,7 @@ public class PickUp : MonoBehaviour
 
     public TextMeshProUGUI countText;
     public TextMeshProUGUI keyText;
+    public TextMeshProUGUI winText;
 
     private Rigidbody rb;
     private int count;
@@ -31,6 +32,8 @@ public class PickUp : MonoBehaviour
 
         // Run the SetCountText function (see below)
         SetCountText();
+
+        
 
     }
 
@@ -61,9 +64,14 @@ public class PickUp : MonoBehaviour
             // Run the 'SetCountText()' function (see below)
             SetKeyText();
         }
-
+        
+        if (other.gameObject.CompareTag("End"))
+        {
+            winText.text = "Game finished with " + count.ToString() + " donuts";
+        }
 
     }
+
 
     void SetCountText()
     {
