@@ -50,6 +50,13 @@ public class PickUp : MonoBehaviour
             // Run the 'SetCountText()' function (see below)
             SetCountText();
         }
+
+        // ..and if the GameObject you intersect has the tag 'OpenableDoor' assigned to it..
+        if (other.gameObject.CompareTag("OpenableDoor"))
+        {
+
+
+        }
     }
 
     void SetCountText()
