@@ -10,6 +10,7 @@ public class EnemyAI : MonoBehaviour
 
     NavMeshAgent navMeshAgent;
     float distanceToTarget = Mathf.Infinity;
+    public int damage = 1;
 
     void Start()
     {
@@ -19,12 +20,20 @@ public class EnemyAI : MonoBehaviour
     void Update()
     {
         distanceToTarget = Vector3.Distance(target.position, transform.position);
-
         if (distanceToTarget <= chaseRange)
         {
             navMeshAgent.SetDestination(target.position);
         }
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Destroy(target);
+        }
+    }
+
 
     void OnDrawGizmosSelected()
     {
