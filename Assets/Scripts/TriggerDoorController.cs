@@ -10,6 +10,9 @@ public class TriggerDoorController : MonoBehaviour
     public bool openTrigger = false;
     public bool closeTrigger = false;
 
+    public string doorOpen = "DoorOpen";
+    public string doorClose = "DoorClose";
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
