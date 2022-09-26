@@ -13,6 +13,9 @@ public class PickUp : MonoBehaviour
 
     private Rigidbody rb;
     private int count;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,12 +54,6 @@ public class PickUp : MonoBehaviour
             SetCountText();
         }
 
-        // ..and if the GameObject you intersect has the tag 'OpenableDoor' assigned to it..
-        if (other.gameObject.CompareTag("OpenableDoor"))
-        {
-
-
-        }
     }
 
     void SetCountText()
