@@ -10,9 +10,12 @@ public class PickUp : MonoBehaviour
 {
 
     public TextMeshProUGUI countText;
+    public TextMeshProUGUI keyText;
 
     private Rigidbody rb;
     private int count;
+
+    private bool key = false;
 
 
 
@@ -31,15 +34,9 @@ public class PickUp : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     void OnTriggerEnter(Collider other)
     {
-
 
 
         // ..and if the GameObject you intersect has the tag 'Pick Up' assigned to it..
@@ -54,11 +51,29 @@ public class PickUp : MonoBehaviour
             SetCountText();
         }
 
+        // ..and if the GameObject you intersect has the tag 'Pick Up' assigned to it..
+        if (other.gameObject.CompareTag("KeyPickUp"))
+        {
+            other.gameObject.SetActive(false);
+            
+            key = true;
+
+            // Run the 'SetCountText()' function (see below)
+            SetKeyText();
+        }
+
+
     }
 
     void SetCountText()
     {
         // Update the text field of our 'countText' variable
         countText.text = "Donut: " + count.ToString();
+    }
+
+    void SetKeyText()
+    {
+        // Update the text field of our 'countText' variable
+        keyText.text = "You have the key!";
     }
 }
