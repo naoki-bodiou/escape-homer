@@ -8,6 +8,7 @@ TagManager:
   - DonutPickUp
   - OpenableDoor
   - KeyPickUp
+  - End
   layers:
   - Default
   - TransparentFX
