@@ -37,6 +37,14 @@ public class PickUp : MonoBehaviour
 
     }
 
+    void Update()
+    {
+        {
+
+
+        }
+    }
+
 
     void OnTriggerEnter(Collider other)
     {
@@ -67,9 +75,13 @@ public class PickUp : MonoBehaviour
         
         if (other.gameObject.CompareTag("End"))
         {
-            winText.text = "Game finished with " + count.ToString() + " donuts";
+            Debug.Log("TEST");
+            if(key)
+            {
+                Debug.Log(key);
+                winText.text = "Game finished with " + count.ToString() + " donuts";
+            }
         }
-
     }
 
 

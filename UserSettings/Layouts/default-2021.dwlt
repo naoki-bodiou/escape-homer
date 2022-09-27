@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 98
+  controlID: 107
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 939
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 99
+  controlID: 108
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 100
+  controlID: 109
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,22 +318,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Users\Naoki\Desktop\3DRARV\GitHub\escape-homer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e47a0000
-    m_LastClickedID: 31460
-    m_ExpandedIDs: 00000000a67a000000ca9a3bffffff7f
+    m_SelectedIDs: ba820000
+    m_LastClickedID: 33466
+    m_ExpandedIDs: 000000004681000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a67a0000
+    m_ExpandedIDs: 0000000046810000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -491,20 +491,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7c49feff
-      m_LastClickedID: -112260
-      m_ExpandedIDs: 6888feff76bcfeff08c0feffaecbfeff4adafeff4ce2feffeaf6feff14fcfeff5803ffff8407ffff780effffd613ffffdc28ffff4e3fffffa644ffffd648fffff24cffff9250ffffc254ffffd059ffff205effff0e63ffff3e67ffffbe6bffff9c70ffff6675ffff9879ffffd8f0fffffcfaffff127100000e7200003e7200004c720000fad00000841b0100b41b0100c21b01005a1c0100d01d01005e1e0100
+      m_SelectedIDs: 82f6ffff
+      m_LastClickedID: -2430
+      m_ExpandedIDs: b2f6ffff66faffff4277000034790000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: donut (1)
-        m_OriginalName: donut (1)
+        m_Name: donut (7)
+        m_OriginalName: donut (7)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -89742
+        m_UserData: -2564
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -743,9 +743,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.79564637, y: 0.42757848, z: 1.8543829}
+    m_Target: {x: -4.7541866, y: 3.9406352, z: 0.9358669}
     speed: 2
-    m_Value: {x: 0.79564637, y: 0.42757848, z: 1.8543829}
+    m_Value: {x: -4.7541866, y: 3.9406352, z: 0.9358669}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -792,13 +792,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.04313635, y: 0.4978109, z: -0.024881233, w: 0.8660328}
+    m_Target: {x: -0.11653531, y: 0.7653728, z: -0.14402638, w: -0.6166196}
     speed: 2
-    m_Value: {x: 0.043166973, y: 0.49643475, z: -0.024812676, w: 0.866645}
+    m_Value: {x: -0.11651555, y: 0.765243, z: -0.14400196, w: -0.616515}
   m_Size:
-    m_Target: 1.2534852
+    m_Target: 0.33330742
     speed: 2
-    m_Value: 1.2534852
+    m_Value: 0.33330742
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -855,7 +855,7 @@ MonoBehaviour:
   m_SerializedViewNames: []
   m_SerializedViewValues: []
   m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
+  m_ShowGizmos: 1
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
   m_TargetSize: {x: 1101, y: 521}
@@ -865,7 +865,7 @@ MonoBehaviour:
   m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
