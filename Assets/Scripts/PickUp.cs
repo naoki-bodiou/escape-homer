@@ -75,7 +75,6 @@ public class PickUp : MonoBehaviour
         
         if (other.gameObject.CompareTag("End"))
         {
-            Debug.Log("TEST");
             if(key)
             {
                 Debug.Log(key);
